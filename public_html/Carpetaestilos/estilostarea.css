@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/06/2020, 05:23:37 PM
+    Author     : francinimendez
+    estilostarea.css
+    
+*/
+
+*{
+    padding: 7px;
+    margin: 0px;
+}
+
+#contenido{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    
+     /*fondo*/
+    background: #ececec; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff, #ececec); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #ececec); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #ececec); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #ececec); /* Standard syntax */
+    /*borde*/
+    
+    border-radius: 33px 33px 33px 200px ;
+    -moz-border-radius: 33px 33px 33px 200px ;
+    -webkit-border-radius: 33px 33px 33px 200px ;
+    border: 13px solid #6E6E6E;
+   
+    /*sombra*/
+    
+    -webkit-box-shadow: 13px 15px 34px -8px rgba(49,51,102,1);
+    -moz-box-shadow: 13px 15px 34px -8px rgba(49,51,102,1);
+    box-shadow: 13px 15px 34px -8px rgba(49,51,102,1);
+}
+#contenido h1{
+    padding-top: 30px;
+    font-family: 'Negrita', sans-serif;
+}
+
+#Caja1{
+    width: 100px;
+    height: 100px;
+    background: #F5A9A9;
+    border: 9px solid #FF0000;
+    color: #F2FBEF;
+    font-size: 30px;
+    text-align: center;
+    
+    position: relative;
+    top: 355px;
+    bottom:0 ;
+    right:0 ;
+    left:177px ;
+    
+
+    
+}
+
+#Caja2{
+    width: 100px;
+    height: 150px;
+    background: #819FF7;
+    border: 9px solid #0101DF;
+    color: #F2FBEF;
+    font-size: 30px;
+    text-align: center;
+    
+    position: absolute;
+    top:415px;
+    bottom:0 ;
+    right:0 ;
+    left:695px ;
+    
+}
+
+#Caja3{
+    width: 100px;
+    height: 200px;
+    background: #81F781;
+    border: 9px solid #04B404;
+    color: #F2FBEF;
+    font-size: 30px;
+    text-align: center;
+    
+    position: relative;
+    top: 125px;
+    bottom:0 ;
+    right:0 ;
+    left:300px ;
+    
+    
+}
+#persona{
+    width: 150px;
+    height: 150px;
+    
+    position: relative;
+    top: -270px;
+    bottom:0 ;
+    right:0 ;
+    left:290px ;
+    
+    
+    background-image: url("imagenes/10581.png");
+   background-size: contain;
+}
+
+#copa{
+    width: 50px;
+    height: 50px;
+    
+    animation-name: slidein;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+    animation-direction:alternate ;
+    animation-timing-function: linear ;
+    
+}
+@-webkit-keyframes slidein{
+    0%{
+        width: 100px;
+        height: 100px;
+        background-image: url("imagenes/1f3c6.png");
+        background-size: contain;
+        position: relative;
+        top: -510px;
+        bottom:0 ;
+        right:0 ;
+        left:280px ;
+    }
+}
+
+
+
+
+    
+
+   
